@@ -33,8 +33,8 @@ struct isSigned<unsigned long long>{
 };
 
 //Tum unsigned ihtimalleri special case olarak yazdim
-//Hocanin istedigi bu mu bilmiyorum :D
-//Obur turlu
+//Hocanin istedigi bu mu bilmiyorum :D ama en kafisi bu gibi
+//Obur turlu bi yontem anlatmadi hoca (benim hatirladigim yok yani)
 
 int main() {
     cout << isSigned<int>::value << endl;
