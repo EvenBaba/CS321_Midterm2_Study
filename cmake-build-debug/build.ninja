@@ -205,6 +205,39 @@ build question5.exe: CXX_EXECUTABLE_LINKER__question5_Debug CMakeFiles/question5
   TARGET_IMPLIB = libquestion5.dll.a
   TARGET_PDB = question5.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target question6
+
+
+#############################################
+# Order-only phony target for question6
+
+build cmake_object_order_depends_target_question6: phony || CMakeFiles/question6.dir
+
+build CMakeFiles/question6.dir/question6.cpp.obj: CXX_COMPILER__question6_unscanned_Debug C$:/Users/vhter/CLionProjects/CS321_Midterm2_Study/question6.cpp || cmake_object_order_depends_target_question6
+  DEP_FILE = CMakeFiles\question6.dir\question6.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\question6.dir
+  OBJECT_FILE_DIR = CMakeFiles\question6.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target question6
+
+
+#############################################
+# Link the executable question6.exe
+
+build question6.exe: CXX_EXECUTABLE_LINKER__question6_Debug CMakeFiles/question6.dir/question6.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\question6.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = question6.exe
+  TARGET_IMPLIB = libquestion6.dll.a
+  TARGET_PDB = question6.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -241,6 +274,8 @@ build question4: phony question4.exe
 
 build question5: phony question5.exe
 
+build question6: phony question6.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -249,7 +284,7 @@ build question5: phony question5.exe
 #############################################
 # Folder: C:/Users/vhter/CLionProjects/CS321_Midterm2_Study/cmake-build-debug
 
-build all: phony question1.exe question2.exe question3.exe question4.exe question5.exe
+build all: phony question1.exe question2.exe question3.exe question4.exe question5.exe question6.exe
 
 # =============================================================================
 # Built-in targets
