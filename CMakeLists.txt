@@ -3,4 +3,5 @@ project(CS321_Midterm2_Study)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(CS321_Midterm2_Study main.cpp)
+add_executable(question1 question1.cpp)
+add_executable(question2 question2.cpp)

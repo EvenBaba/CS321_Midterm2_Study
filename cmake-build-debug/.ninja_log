@@ -1,3 +1,7 @@
 # ninja log v5
 1	933	7561611009759878	CMakeFiles/CS321_Midterm2_Study.dir/main.cpp.obj	8fc8f6ad51997027
 936	1080	7561611011169881	CS321_Midterm2_Study.exe	4275ea1cb6619e19
+1	739	7562381860053010	CMakeFiles/question1.dir/question1.cpp.obj	e871c4f75272c72b
+742	889	7562381861492679	question1.exe	defc644970b0da84
+1	723	7562381914683903	CMakeFiles/question2.dir/question2.cpp.obj	255a5e3348bc6ba8
+724	882	7562381916254114	question2.exe	30b4cca3b48f5dff
