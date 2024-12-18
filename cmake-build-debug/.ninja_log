@@ -3,11 +3,9 @@
 724	882	7562381916254114	question2.exe	30b4cca3b48f5dff
 936	1080	7561611011169881	CS321_Midterm2_Study.exe	4275ea1cb6619e19
 742	889	7562381861492679	question1.exe	defc644970b0da84
+5	925	7562406194343539	CMakeFiles/question3.dir/question3.cpp.obj	6c89a4c4b7ebdb7d
 1	739	7562381860053010	CMakeFiles/question1.dir/question1.cpp.obj	e871c4f75272c72b
 1	723	7562381914683903	CMakeFiles/question2.dir/question2.cpp.obj	255a5e3348bc6ba8
-1	976	7562399337408387	CMakeFiles/question3.dir/question3.cpp.obj	6c89a4c4b7ebdb7d
-978	1112	7562399338748343	question3.exe	dc2d1df98f147c17
-4	902	7562400035733826	CMakeFiles/question3.dir/question3.cpp.obj	6c89a4c4b7ebdb7d
-903	1023	7562400036904180	question3.exe	dc2d1df98f147c17
-5	925	7562406194343539	CMakeFiles/question3.dir/question3.cpp.obj	6c89a4c4b7ebdb7d
 926	1058	7562406195613548	question3.exe	dc2d1df98f147c17
+0	770	7562426516226382	CMakeFiles/question4.dir/question4.cpp.obj	c858e31eedc04264
+771	896	7562426517446510	question4.exe	acf789bfddb27b8e
