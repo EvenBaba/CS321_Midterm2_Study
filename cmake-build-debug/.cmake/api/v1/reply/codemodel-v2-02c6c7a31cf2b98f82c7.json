@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,7 +33,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -50,6 +52,13 @@
 					"id" : "question2::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-question2-Debug-c1b84ddd14837298dbbe.json",
 					"name" : "question2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "question3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-question3-Debug-02bce39095cf3eb049d5.json",
+					"name" : "question3",
 					"projectIndex" : 0
 				}
 			]
