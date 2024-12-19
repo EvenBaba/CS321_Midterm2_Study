@@ -304,6 +304,39 @@ build question8.exe: CXX_EXECUTABLE_LINKER__question8_Debug CMakeFiles/question8
   TARGET_IMPLIB = libquestion8.dll.a
   TARGET_PDB = question8.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target question10
+
+
+#############################################
+# Order-only phony target for question10
+
+build cmake_object_order_depends_target_question10: phony || CMakeFiles/question10.dir
+
+build CMakeFiles/question10.dir/question10.cpp.obj: CXX_COMPILER__question10_unscanned_Debug C$:/Users/vhter/CLionProjects/CS321_Midterm2_Study/question10.cpp || cmake_object_order_depends_target_question10
+  DEP_FILE = CMakeFiles\question10.dir\question10.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\question10.dir
+  OBJECT_FILE_DIR = CMakeFiles\question10.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target question10
+
+
+#############################################
+# Link the executable question10.exe
+
+build question10.exe: CXX_EXECUTABLE_LINKER__question10_Debug CMakeFiles/question10.dir/question10.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\question10.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = question10.exe
+  TARGET_IMPLIB = libquestion10.dll.a
+  TARGET_PDB = question10.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -332,6 +365,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build question1: phony question1.exe
 
+build question10: phony question10.exe
+
 build question2: phony question2.exe
 
 build question3: phony question3.exe
@@ -354,7 +389,7 @@ build question8: phony question8.exe
 #############################################
 # Folder: C:/Users/vhter/CLionProjects/CS321_Midterm2_Study/cmake-build-debug
 
-build all: phony question1.exe question2.exe question3.exe question4.exe question5.exe question6.exe question7.exe question8.exe
+build all: phony question1.exe question2.exe question3.exe question4.exe question5.exe question6.exe question7.exe question8.exe question10.exe
 
 # =============================================================================
 # Built-in targets
