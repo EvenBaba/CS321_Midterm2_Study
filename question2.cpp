@@ -41,5 +41,7 @@ int main() {
     cout << isSigned<unsigned int>::value << endl;
     cout << isSigned<float>::value << endl;
     cout << isSigned<unsigned char>::value << endl;
+    cout << isSigned<double>::value << endl;
+    cout << isSigned<unsigned long>::value << endl;
     return 0;
 }
