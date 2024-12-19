@@ -83,6 +83,6 @@ int main() {
     list.printlist();
     cout << "---" << endl;
     list.insert(paired<int, string>{3,"three"}); //Overwriting value
-    list.printlist();
+    list.printlist(); //Printing overwritten version
     return 0;
 }
